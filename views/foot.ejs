@@ -1,2 +1,25 @@
+<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+
+<script>
+
+    var options = {
+        duration: 400,
+        queue: true
+    }
+    $('.site').on('mouseenter', function () {
+                if ($(window).width() > 750) {
+                    $(this).find('.description').slideDown(options);
+                    $(this).focus();
+                }
+
+            })
+            .on('mouseleave', function () {
+                if ($(window).width() > 750) {
+                    $(this).find('.description').slideUp(options);
+                }
+            })
+
+</script>
+
 </body>
 </html>
