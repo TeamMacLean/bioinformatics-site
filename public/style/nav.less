@@ -1,0 +1,49 @@
+.nav {
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .brand {
+    display: inline-block;
+    width: 280px;
+    padding: 30px 0;
+    text-align: center;
+    border-bottom: solid 5px #7AE2DE;
+    background-color: #414A52;
+    img {
+      height: 35px;
+      vertical-align: middle;
+    }
+    @media (max-width: 840px) {
+      width: 100%;
+    }
+  }
+
+  .menu {
+    display: inline-block;
+    margin-right: 60px;
+    padding: 14px 0;
+    float: right;
+    ul {
+      li {
+        font-size: 13px;
+        display: inline-block;
+        padding: 10px 20px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        border-right: solid 1px #E5E7E9;
+        &:last-child {
+          border-right: none;
+        }
+      }
+    }
+    @media (max-width: 840px) {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "bioinformatics-site",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Martin Page"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/TeamMacLean/bioinformatics-site",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "Font-Awesome#^4.6.3",
+    "animate.css": "^3.5.2"
+  }
+}
